@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Teague APIs - WhoAmI Microservice</title>
+    <meta name="description" content="A microservice API returning information about the client browser.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        Teague APIs - Who Am I Microservice
+      </h1>
+    </header>
+
+    <article>
+      <section>
+        <h2>
+          User Stories
+        </h2>
+        <ol>
+          <li>I can get the IP address, preferred languages (from header Accept-Language) and system infos (from header User-Agent) for my device.</li>
+        </ol>
+      </section>
+      <section>
+        <h2>Example usage:</h2>
+            <code>https://teague-apis-whoami.glitch.me/api/whoami</code>
+      </section>
+      <section>
+        <h2>Example output:</h2>
+        <code>
+          {
+            "ipaddress":"159.20.14.100",
+            "language":"en-US,en;q=0.9",
+            "software":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:50.0) Gecko/20100101 Firefox/50.0"
+          }
+        </code>  
+      </section>
+    </article>
+
+  </body>
+</html>

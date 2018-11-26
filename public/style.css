@@ -1,0 +1,66 @@
+body {
+  font-family: 'Itim', sans-serif;
+  font-size: 1.25em;
+  margin: 25px 15px;
+  background-color: #7686AF;
+}
+
+header {
+  text-align: center;
+  background-image: linear-gradient(to bottom right, #FFFFFF, #AEF2E3);
+  border-radius: 10px;
+  margin-bottom: 0px;
+  padding: 15px;
+  font-size: 1.5em;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+}
+
+section {
+  background-image: linear-gradient(to bottom right, #FFFFFF, #ABCDEF);
+  padding: 10px 20px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,1);
+}
+
+label{
+  display: block;
+}
+
+input{
+  font-family: 'Itim', sans-serif;
+  font-size: 1.25em;
+  border-radius: 10px;
+  display: block;
+  cursor: initial;
+  margin: 10px 0px;
+}
+
+button{
+  font-family: 'Itim', sans-serif;
+  font-size: 1.25em;
+  display: block;
+  background-image: linear-gradient(#FFFFFF, #AAAAAA);
+  border-radius: 999px;
+  border: none;
+}
+
+h2 {
+ margin: 10px 0px; 
+}
+
+p, code {
+  padding-left: 40px;
+  display: block;
+  word-wrap: break-word;
+}
+
+article {
+  margin: 0px auto;
+}
+
+@media only screen and (orientation: landscape) {
+  article {
+    max-width: 750px;
+  }
+}
